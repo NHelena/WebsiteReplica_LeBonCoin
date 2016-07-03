@@ -51,10 +51,16 @@ header {
   color: #FFFFFF;
   text-decoration: none;
   text-transform: uppercase;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .header-navlist a:hover {
   text-decoration: underline;
+}
+
+.log-in-button {
+  
 }
 
 
