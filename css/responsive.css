@@ -1,0 +1,43 @@
+/* ==========================================================================
+   Responsive parameters
+   ========================================================================== */
+
+/* Old iPhone, small Android - 320x480 */
+@media (min-width: 320px) and (max-width: 480px) {
+
+}
+
+/* WVGA - Low-end Windows Phone - 480x800 */
+@media (min-width: 481px) and (max-width: 640px) {
+
+}
+
+/* DVGA - iPhone - 640x960 */
+@media (min-width: 641px) and (max-width: 768px) {
+
+}
+
+/* WXGA - High-end Windows Phone - 768x1280 */
+@media (min-width: 769px) and (max-width: 1024px) {
+
+}
+
+/* XGA - iPad - 1024x768 */
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+}
+
+/* WXGA - Netbook - 1280x800 */
+@media (min-width: 1281px) and (max-width: 1366px) {
+
+}
+
+/* WXGA - Ultrabook or tablet - 1366x768 */
+@media (min-width: 1367px) and (max-width: 1680px) {
+
+}
+
+/* WSXGA+ - Large desktop - 1680x1050 */
+@media (min-width: 1681px) {
+
+}
