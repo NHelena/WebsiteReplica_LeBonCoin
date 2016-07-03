@@ -8,10 +8,46 @@
 
 /* Global selector */
 * {
-  font: 13px Arial, sans-serif;
+  font: 14px "Open Sans", sans-serif;
 }
 
 
 /* ==========================================================================
    Body content
    ========================================================================== */
+
+body {
+  background: #FFFFFF;
+  margin: 0 auto;
+  resize: both;
+  overflow: auto;
+}
+
+header {
+  background-color: #F56B2A;
+  width: 100%;
+  position: static;
+  padding: 4px 0 4px 0;
+  left: 0;
+}
+
+.header-navlist {
+  top: 0;
+  right: 0;
+  list-style: none;
+}
+
+.header-navlist li {
+  display: inline;
+}
+
+.header-navlist a {
+  color: #FFFFFF;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.header-navlist a:hover {
+  text-decoration: underline;
+}
