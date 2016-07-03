@@ -9,6 +9,7 @@
 /* Global selector */
 * {
   font: 14px "Open Sans", sans-serif;
+  font-weight: bold;
 }
 
 
@@ -22,6 +23,11 @@ body {
   resize: both;
   overflow: auto;
 }
+
+
+/* ==========================================================================
+   Header content
+   ========================================================================== */
 
 header {
   background-color: #F56B2A;
@@ -45,9 +51,36 @@ header {
   color: #FFFFFF;
   text-decoration: none;
   text-transform: uppercase;
-  font-weight: bold;
 }
 
 .header-navlist a:hover {
   text-decoration: underline;
+}
+
+
+/* ==========================================================================
+   List of departments (body aside)
+   ========================================================================== */
+
+.departments-list {
+  float: right;
+}
+
+/* Clearfix the floating elements */
+.clean-float {
+  clear: both;
+}
+
+.departments-navlist ul {
+  list-style: none;
+  text-align: right;
+}
+
+.departments-navlist a {
+  color: #4271A0;
+  text-decoration: none;
+}
+
+.departments-navlist a:hover {
+  color: #F56B2A;
 }
