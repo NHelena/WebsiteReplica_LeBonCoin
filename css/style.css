@@ -112,8 +112,12 @@ body {
 /* =================================
   Body left aside */
 
+.body-left-aside {
+  margin-left: -60px;
+}
+
 .body-left-aside p {
-  max-width: 60%;
+  width: 100%;
   line-height: 20px;
   color: #1A1A1A;
   padding-left: 16px;
@@ -179,8 +183,9 @@ body {
 
 section {
   padding-top: 30px;
+  padding-left: 125px;
+  padding-right: 125px;
 }
-
 
 
 /* =================================
@@ -195,6 +200,7 @@ section {
 .departments-navlist ul {
   list-style: none;
   text-align: right;
+  margin-right: -132px;
 }
 
 /* Set the font color of the departments list links, prevent them from being underlined & vertically space them out */
@@ -215,9 +221,42 @@ section {
    ========================================================================== */
 
 footer {
-  background-color: #F2F2F2;
+  background-color: #474747;
+  color: #FFFFFF;
   width: 100%;
   position: absolute;
   bottom: 0;
-  left: 0;
+  display: -webkit-box; /* iOS 6-, Safari 3.1-6 */
+  display: -moz-box; /* Firefox 19- */
+  display: -ms-flexbox; /* IE 10 */
+  display: -webkit-flex; /* Chrome */
+  display: flex; /* Opera 12.1, Firefox 20+ */
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.column1 {
+  margin-left: 25%;
+}
+
+.column4 {
+  margin-right: 25%;
+}
+
+.first-element-footer-list {
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 40px;
+}
+
+.column1 ul, .column2 ul, .column3 ul, .column4 ul {
+  list-style: none;
+}
+
+.column1 ul a, .column2 ul a, .column3 ul a, .column4 ul a {
+  text-decoration: none;
+  color: #FFFFFF;
+  font: 13px "Open Sans", sans-serif;
+  line-height: 30px;
 }
