@@ -49,6 +49,7 @@ header {
   vertical-align: middle;
 }
 
+/* Vertically display & align the header navlist */
 .header-navlist li {
   display: inline-block;
   vertical-align: middle;
@@ -61,7 +62,7 @@ header {
 }
 
 /* Set the default font color of the header navlist links & prevent them from being underlined */
-.header-navlist a {
+.header-navlist li a {
   color: #FFFFFF;
   text-decoration: none;
 }
@@ -115,37 +116,75 @@ body {
   max-width: 60%;
   line-height: 20px;
   color: #1A1A1A;
+  padding-left: 16px;
+  padding-bottom: 10px;
 }
 
 .body-left-aside p span {
   color: #F56B2A;
 }
 
-.button a {
-  text-decoration: none;
+.button {
+  list-style-type: none;
+  padding: 0;
+}
+
+.button li {
+  vertical-align: middle;
+  padding: 18px;
+}
+
+.button li img {
+  height: 14px;
+  width: 14px;
+  margin-right: 5px;
+  vertical-align: middle;
 }
 
 .create-ad-button, .search-around-button {
+  text-decoration: none;
   border: 1px solid #4183D7;
   border-radius: 4px;
+  padding: 10px;
+  font-size: 13px;
+}
+
+.create-ad-button {
+  color: #FFFFFF;
+  background-color: #4183D7;
   padding-right: 20px;
   padding-left: 20px;
+}
+
+.create-ad-button:hover, .create-ad-button:focus {
+  background-color: #4C94EF;
+}
+
+.create-ad-button:focus {
+  text-decoration: underline;
+}
+
+.search-around-button {
+  color: #4183D7;
+  padding-left: 49px;
+  padding-right: 49px;
+}
+
+.search-around-button:hover {
+  background-color: #D9E6F7;
 }
 
 /* =================================
   Body middle section (map of the France)*/
 
-
+section {
+  padding-top: 30px;
+}
 
 
 
 /* =================================
   Body right aside (departments list) */
-
-/* Fix the list of the departments on the right */
-.body-right-aside {
-
-}
 
 /* Clearfix the floating elements */
 .clean-float {
@@ -177,4 +216,8 @@ body {
 
 footer {
   background-color: #F2F2F2;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
