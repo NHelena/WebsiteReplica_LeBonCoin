@@ -6,12 +6,14 @@
    Main page
    ========================================================================== */
 
+/* Load a custom font form the repository */
 @font-face {
   font-family: "Open Sans Semibold";
-  src: url("../font/OpenSans-Semibold.eot?") format("eot"); /* IE compatibility */
-  src: url("../font/OpenSans-Semibold.woff") format("woff"); /* Chrome, Firefox compatibility */
-  src: url("../font/OpenSans-Semibold.ttf") format("truetype"); /* Safari, Android, iOS compatibility */
-  src: url("../font/OpenSans-Semibold.svg#OpenSans-Semibold") format("svg"); /* Legacy iOS compatibility */
+  /* Compatibility for IE, Chrome-Firefox, Safari-Android & old iOS */
+  src: url("../font/OpenSans-Semibold.eot?") format("eot"),
+       url("../font/OpenSans-Semibold.woff") format("woff"),
+       url("../font/OpenSans-Semibold.ttf") format("truetype"),
+       url("../font/OpenSans-Semibold.svg#OpenSans-Semibold") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -20,18 +22,6 @@
 * {
   font: 14px "Open Sans Semibold";
   letter-spacing: -0.5px;
-}
-
-
-/* ==========================================================================
-   Body content
-   ========================================================================== */
-
-body {
-  background: #FFFFFF;
-  margin: 0 auto;
-  resize: both;
-  overflow: auto;
 }
 
 
@@ -64,12 +54,29 @@ header {
   vertical-align: middle;
 }
 
+/* Change the style of the last element of the header navigation list & fix*/
+.header-navlist li:last-child {
+  text-transform: none;
+  margin-left: 12.5em;
+}
+
+/* Set the default font color of the header navlist links & prevent them from being underlined */
 .header-navlist a {
   color: #FFFFFF;
   text-decoration: none;
+}
+
+/* Resize the log-in icon in the header navigation list */
+.header-navlist .log-in-icon {
+  height: 20px;
+  width: 20px;
+}
+
+/* Force the header navlist links to be capitalized & space them out */
+.header-navlist-link {
   text-transform: uppercase;
-  padding-left: 0.8em;
-  padding-right: 0.8em;
+  padding-left: 0.85em;
+  padding-right: 0.85em;
 }
 
 /* Force the header links to be underlined when the mouse hovers them */
@@ -79,12 +86,65 @@ header {
 
 
 /* ==========================================================================
-   List of departments (body aside)
+   Body content
    ========================================================================== */
 
+body {
+  background: #FAFAFA;
+  margin: 0 auto;
+  resize: both;
+  overflow: auto;
+}
+
+.wrapper {
+  display: -webkit-box; /* iOS 6-, Safari 3.1-6 */
+  display: -moz-box; /* Firefox 19- */
+  display: -ms-flexbox; /* IE 10 */
+  display: -webkit-flex; /* Chrome */
+  display: flex; /* Opera 12.1, Firefox 20+ */
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+/* =================================
+  Body left aside */
+
+.body-left-aside p {
+  max-width: 60%;
+  line-height: 20px;
+  color: #1A1A1A;
+}
+
+.body-left-aside p span {
+  color: #F56B2A;
+}
+
+.button a {
+  text-decoration: none;
+}
+
+.create-ad-button, .search-around-button {
+  border: 1px solid #4183D7;
+  border-radius: 4px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+/* =================================
+  Body middle section (map of the France)*/
+
+
+
+
+
+/* =================================
+  Body right aside (departments list) */
+
 /* Fix the list of the departments on the right */
-.departments-list {
-  float: right;
+.body-right-aside {
+
 }
 
 /* Clearfix the floating elements */
@@ -98,13 +158,23 @@ header {
   text-align: right;
 }
 
-/* Set the font color of the departments list links & prevent them from being underlined */
+/* Set the font color of the departments list links, prevent them from being underlined & vertically space them out */
 .departments-navlist a {
   color: #4271A0;
   text-decoration: none;
+  line-height: 20px;
 }
 
 /* Set the font color of the departments list links when the mouse hovers them */
 .departments-navlist a:hover {
   color: #F56B2A;
+}
+
+
+/* ==========================================================================
+   Footer content
+   ========================================================================== */
+
+footer {
+  background-color: #F2F2F2;
 }
