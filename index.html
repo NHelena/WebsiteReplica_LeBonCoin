@@ -11,7 +11,7 @@
     <!-- Link to the font -->
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans">
     <!-- Setting of the favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="img/fav-icon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="img/fav-icon.jpeg">
     <!-- Setting of the page title for web-referencing -->
     <title>Site de petites annonces gratuites d'occasion - leboncoin.fr</title>
   </head>
@@ -22,83 +22,102 @@
     <header>
       <nav>
         <ul class="header-navlist">
-          <li><a href="http://www.leboncoin.fr"><img src="logo" alt="Logo Le Bon Coin" /></a></li>
-          <li><a href="http://www.leboncoin.fr">Accueil</a></li>
-          <li><a href="http://www.leboncoin.fr/ai/form/0?ca=12_s">Déposer une annonce</a></li>
-          <li><a href="http://www.leboncoin.fr/annonces/offres/ile_de_france/">Offres</a></li>
-          <li><a href="http://www.leboncoin.fr/annonces/demandes/ile_de_france/">Demandes</a></li>
-          <li><a href="http://www.leboncoin.fr/aw?ca=12_s">Mes annonces</a></li>
-          <li><a href="http://www.leboncoin.fr/boutiques/tout_secteur_d_activite/toutes_categories/ile_de_france/">Boutiques</a></li>
-          <li>Se connecter</li>
+          <li><a class="header-navlist-link" href="http://www.leboncoin.fr"><img src="img/logo.png" alt="Logo Le Bon Coin" /></a></li>
+          <li><a class="header-navlist-link" href="http://www.leboncoin.fr">Accueil</a></li>
+          <li><a class="header-navlist-link" href="http://www.leboncoin.fr/ai/form/0?ca=12_s">Déposer une annonce</a></li>
+          <li><a class="header-navlist-link" href="http://www.leboncoin.fr/annonces/offres/ile_de_france/">Offres</a></li>
+          <li><a class="header-navlist-link" href="http://www.leboncoin.fr/annonces/demandes/ile_de_france/">Demandes</a></li>
+          <li><a class="header-navlist-link" href="http://www.leboncoin.fr/aw?ca=12_s">Mes annonces</a></li>
+          <li><a class="header-navlist-link" href="http://www.leboncoin.fr/boutiques/tout_secteur_d_activite/toutes_categories/ile_de_france/">Boutiques</a></li>
+          <li><a href="#"><img class="log-in-icon" src="img/log-in-white.png" alt="Icône d'authentification" />Se connecter</a></li>
         </ul>
       </nav>
     </header>
     <!-- End of the body header -->
-    <section>
-      <img src="img/map.png" alt="Carte des régions de France" usemap="#map" />
-      <map name="map">
-        <area alt="Région Nord-Pas-de-Calais" title="Nord-Pas-de-Calais" href="http://www.leboncoin.fr/annonces/offres/nord_pas_de_calais/" shape="poly" coords="148, 6, 170, 0, 172, 9, 183, 14, 184, 19, 188, 19, 193, 25, 203, 28, 209, 37, 202, 37, 194, 34, 186, 38, 182, 36, 174, 36, 168, 34, 167, 30, 160, 31, 157, 27, 148, 27, 147, 23, 150, 21" />
-        <area alt="Région Picardie" title="Picardie" href="http://www.leboncoin.fr/annonces/offres/picardie/" shape="poly" coords="208, 38, 205, 48, 205, 57, 195, 61, 194, 67, 196, 72, 190, 77, 184, 69, 175, 72, 161, 65, 152, 65, 151, 54, 153, 45, 143, 33, 147, 31, 148, 27, 154, 28, 159, 31, 166, 30, 167, 35, 174, 36, 181, 36, 184, 40, 194, 35" />
-        <area alt="Région Champagne-Ardenne" title="Champagne-Ardenne" href="http://www.leboncoin.fr/annonces/offres/champagne_ardenne/" coords="240, 120, 228, 116, 221, 106, 205, 108, 193, 93, 191, 77, 195, 73, 195, 66, 197, 61, 203, 57, 206, 46, 220, 31, 232, 46, 224, 76, 242, 101, 251, 110" />
-        <area alt="Région Lorraine" title="Lorraine" href="http://www.leboncoin.fr/annonces/offres/lorraine/" shape="poly" coords="234, 50, 234, 55, 240, 52, 247, 55, 255, 54, 260, 55, 268, 64, 274, 67, 271, 71, 274, 73, 276, 77, 276, 84, 273, 87, 278, 94, 271, 108, 263, 105, 258, 107, 251, 103, 249, 107, 245, 104, 242, 98, 237, 94, 235, 89, 225, 79, 225, 75, 227, 70, 226, 64, 230, 58, 226, 55, 229, 51" />
-        <area alt="Région Alsace" title="Alsace" href="http://www.leboncoin.fr/annonces/offres/alsace/" shape="poly" coords="289, 67, 300, 70, 289, 95, 287, 107, 287, 114, 291, 118, 284, 121, 277, 119, 277, 113, 272, 109, 279, 95, 274, 88, 280, 81, 279, 76, 273, 70, 275, 68" />
-        <area alt="Région Franche-Comté" title="Franche-Comté" href="http://www.leboncoin.fr/annonces/offres/franche_comte/" shape="poly" coords="248, 109, 239, 120, 240, 129, 236, 141, 240, 146, 237, 158, 239, 165, 244, 163, 247, 165, 253, 164, 257, 157, 267, 140, 276, 129, 276, 123, 277, 118, 270, 106, 255, 105" />
-        <area alt="Région Bourgogne" title="Bourgogne" href="http://www.leboncoin.fr/annonces/offres/bourgogne/" shape="poly" coords="193, 93, 182, 93, 179, 100, 183, 108, 177, 117, 184, 151, 197, 154, 208, 168, 214, 172, 221, 165, 224, 170, 231, 156, 234, 159, 241, 147, 237, 141, 240, 129, 240, 121, 228, 116, 220, 108, 205, 108" />
-        <area alt="Région Rhônes-Alpes" title="Rhônes-Alpes" href="http://www.leboncoin.fr/annonces/offres/rhones_alpes/" shape="poly" coords="208, 167, 213, 171, 220, 165, 224, 169, 233, 159, 253, 167, 257, 170, 266, 161, 270, 161, 279, 175, 276, 182, 283, 197, 273, 206, 261, 206, 264, 214, 244, 228, 249, 237, 243, 239, 237, 235, 227, 236, 212, 236, 207, 233, 205, 218, 215, 206, 214, 198, 204, 199, 199, 185, 199, 170" />
-        <area alt="Région Auvergne" title="Auvergne" href="http://www.leboncoin.fr/annonces/offres/auvergne/" shape="poly" coords="185, 150, 198, 152, 208, 167, 201, 170, 198, 186, 203, 198, 211, 199, 213, 204, 206, 217, 199, 215, 190, 214, 182, 223, 175, 213, 162, 223, 161, 213, 164, 200, 171, 195, 169, 182, 173, 176, 171, 169, 165, 165, 171, 159, 175, 151" />
-        <area alt="Région Provence-Alpes-Côte d'Azur" title="Provence-Alpes-Côte d'Azur" href="https://www.leboncoin.fr/annonces/offres/provence_alpes_cote_d_azur/" shape="poly" coords="245, 226, 264, 214, 262, 204, 273, 206, 281, 216, 277, 223, 281, 233, 290, 239, 296, 236, 299, 238, 297, 249, 274, 268, 271, 272, 256, 277, 249, 273, 215, 264, 226, 247, 228, 235, 251, 237" />
-        <area alt="Région Languedoc-Roussillon" title=" Languedoc-Roussillon" href="http://www.leboncoin.fr/annonces/offres/languedoc_roussillon/" shape="poly" coords="182, 221, 189, 213, 203, 220, 209, 234, 222, 236, 228, 246, 214, 263, 207, 260, 196, 271, 192, 270, 183, 281, 188, 301, 182, 299, 173, 301, 152, 300, 150, 295, 161, 292, 149, 267, 171, 266, 176, 257, 190, 244" />
-        <area alt="Région Midi-Pyrénées" title="Midi-Pyrénées" href="http://www.leboncoin.fr/annonces/offres/midi_pyrenees/" shape="poly" coords="181, 219, 175, 213, 161, 223, 161, 213, 144, 209, 131, 227, 130, 239, 101, 246, 100, 260, 107, 267, 97, 283, 103, 290, 127, 286, 152, 294, 158, 293, 150, 266, 173, 265, 190, 245" />
-        <area alt="Région Aquitaine" title="Aquitaine" href="http://www.leboncoin.fr/annonces/offres/aquitaine/" shape="poly" coords="96, 282, 61, 265, 80, 221, 80, 190, 92, 210, 92, 200, 100, 208, 114, 202, 113, 196, 123, 187, 136, 191, 143, 208, 131, 226, 131, 238, 101, 246, 100, 260, 109, 266" />
-        <area alt="Région Limousin" title="Limousin" href="http://www.leboncoin.fr/annonces/offres/limousin/" shape="poly" coords="124, 185, 132, 179, 129, 169, 136, 164, 163, 162, 168, 170, 171, 183, 165, 188, 162, 201, 162, 210, 144, 209, 137, 192" />
-        <area alt="Région Poitou-Charentes" title="Poitou-Charentes" href="http://www.leboncoin.fr/annonces/offres/poitou_charentes/" shape="poly" coords="124, 187, 130, 179, 128, 170, 138, 163, 130, 146, 112, 135, 98, 137, 88, 140, 94, 164, 82, 164, 79, 186, 91, 198, 105, 208, 112, 202" />
-        <area alt="Région Pays-de-la-Loire" title="Pays-de-la-Loire" href="http://www.leboncoin.fr/annonces/offres/pays_de_la_loire/" shape="poly" coords="88, 87, 104, 85, 110, 91, 115, 91, 124, 96, 134, 100, 109, 120, 113, 133, 97, 138, 88, 138, 95, 165, 82, 165, 68, 157, 57, 144, 59, 132, 65, 130, 53, 128, 54, 121, 66, 117, 79, 112, 87, 103" />
-        <area alt="Région Centre" title="Centre" href="http://www.leboncoin.fr/annonces/offres/centre/" shape="poly" coords="112, 134, 110, 120, 133, 99, 128, 95, 131, 80, 144, 76, 158, 98, 180, 101, 183, 108, 178, 118, 185, 150, 175, 151, 165, 166, 138, 165, 130, 146" />
-        <area alt="Région Île-de-France" title="Île-de-France" href="http://www.leboncoin.fr/annonces/offres/ile_de_france/" shape="poly" coords="150, 65, 161, 65, 176, 72, 185, 68, 191, 78, 191, 91, 181, 93, 179, 99, 172, 102, 168, 98, 158, 96, 152, 90, 146, 75" />
-        <area alt="Région Haute-Normandie" title="Haute-Normandie" href="http://www.leboncoin.fr/annonces/offres/haute_normandie/" shape="poly" coords="113, 55, 141, 34, 155, 45, 153, 53, 151, 63, 144, 76, 132, 79" />
-        <area alt="Région Basse-Normandie" title="Basse-Normandie" href="http://www.leboncoin.fr/annonces/offres/basse_normandie/" shape="poly" coords="67, 44, 77, 69, 75, 76, 77, 85, 87, 87, 104, 84, 126, 96, 130, 80, 115, 58, 108, 64, 85, 61, 83, 47" />
-        <area alt="Région Bretagne" title="Bretagne" href="http://www.leboncoin.fr/annonces/offres/bretagne/" shape="poly" coords="53, 119, 42, 114, 36, 120, 33, 111, 19, 103, 6, 106, 2, 80, 20, 74, 43, 77, 48, 83, 72, 85, 77, 89, 87, 86, 86, 99, 79, 112, 67, 117" />
-        <area alt="Région Corse" title="Corse" href="http://www.leboncoin.fr/annonces/offres/corse/" shape="poly" coords="303, 261, 282, 280, 289, 312, 301, 319, 308, 286" />
-        <area alt="Région Guadeloupe" title="Guadeloupe" href="http://www.leboncoin.fr/annonces/offres/guadeloupe/" shape="poly" coords="65, 317, 46, 328, 55, 358, 84, 359, 94, 328" />
-        <area alt="Région Martinique" title="Martinique" href="http://www.leboncoin.fr/annonces/offres/martinique/" shape="poly" coords="110, 319, 109, 326, 121, 355, 146, 355, 136, 327" />
-        <area alt="Région Guyane" title="Guyane" href="http://www.leboncoin.fr/annonces/offres/guyane/" shape="poly" coords="171, 323, 164, 333, 168, 357, 184, 359, 195, 339" />
-        <area alt="Région Réunion" title="Réunion" href="http://www.leboncoin.fr/annonces/offres/reunion/" shape="poly" coords="223, 328, 212, 340, 227, 356, 248, 357, 254, 347, 241, 329" />
-      </map>
-    </section>
-    <aside class="departments-list">
-      <!-- Beginning of the departments navigation list -->
-      <nav class="departments-navlist">
-        <ul>
-          <li><a href="https://www.leboncoin.fr/annonces/offres/alsace/">Alsace</a></li>
-          <li><a href="https://www.leboncoin.fr/annonces/offres/aquitaine/">Aquitaine</a></li>
-          <li><a href="https://www.leboncoin.fr/annonces/offres/auvergne/">Auvergne</a></li>
-          <li><a href="https://www.leboncoin.fr/annonces/offres/basse_normandie/">Basse-Normandie</a></li>
-          <li><a href="https://www.leboncoin.fr/annonces/offres/bourgogne/">Bourgogne</a></li>
-          <li><a href="https://www.leboncoin.fr/annonces/offres/bretagne/">Bretagne</a></li>
-          <li><a href="https://www.leboncoin.fr/annonces/offres/centre/">Centre</a></li>
-          <li><a href="https://www.leboncoin.fr/annonces/offres/champagne_ardenne/">Champagne-Ardenne</a></li>
-          <li><a href="https://www.leboncoin.fr/annonces/offres/corse/">Corse</a></li>
-          <li><a href="https://www.leboncoin.fr/annonces/offres/franche_comte/">Franche-Comté</a></li>
-          <li><a href="https://www.leboncoin.fr/annonces/offres/haute_normandie/">Haute-Normandie</a></li>
-          <li><a href="https://www.leboncoin.fr/annonces/offres/ile_de_france/">Ile-de-France</a></li>
-          <li><a href="https://www.leboncoin.fr/annonces/offres/languedoc_roussillon/">Languedoc-Roussillon</a></li>
-          <li><a href="https://www.leboncoin.fr/annonces/offres/limousin/">Limousin</a></li>
-          <li><a href="https://www.leboncoin.fr/annonces/offres/lorraine/">Lorraine</a></li>
-          <li><a href="https://www.leboncoin.fr/annonces/offres/midi_pyrenees/">Midi-Pyrénées</a></li>
-          <li><a href="https://www.leboncoin.fr/annonces/offres/nord_pas_de_calais/">Nord-Pas-de-Calais</a></li>
-          <li><a href="https://www.leboncoin.fr/annonces/offres/pays_de_la_loire/">Pays de la Loire</a></li>
-          <li><a href="https://www.leboncoin.fr/annonces/offres/picardie/">Picardie</a></li>
-          <li><a href="https://www.leboncoin.fr/annonces/offres/poitou_charentes/">Poitou-Charentes</a></li>
-          <li><a href="https://www.leboncoin.fr/annonces/offres/provence_alpes_cote_d_azur/">Provences-Alpes-Côte d'Azur</a></li>
-          <li><a href="https://www.leboncoin.fr/annonces/offres/rhone_alpes/">Rhône-Alpes</a></li>
-          <li><a href="https://www.leboncoin.fr/annonces/offres/guadeloupe/">Guadeloupe</a></li>
-          <li><a href="https://www.leboncoin.fr/annonces/offres/martinique/">Martinique</a></li>
-          <li><a href="https://www.leboncoin.fr/annonces/offres/guyane/">Guyane</a></li>
-          <li><a href="https://www.leboncoin.fr/annonces/offres/reunion/">Réunion</a></li>
-        </ul>
-      </nav>
-      <!-- End of the departments navigation list -->
-    </aside>
+    <!-- Beginning of the wrapper div -->
+    <div class="wrapper">
+      <!-- Beginning of the body left aside containing two button-links -->
+      <aside class="body-left-aside">
+        <p>
+          Trouvez la bonne affaire parmi <span>26 071 705 petites annonces</span> sur leboncoin.
+        </p>
+        <p class="button">
+          <a class="create-ad-button" href="http://www2.leboncoin.fr/ai"><img src="img/create-ad.png" alt="Icône 'Déposez gratuitement vos annonces'" />Déposez gratuitement vos annonces</a>
+          <a class="search-around-button" href="#"><img src="img/search-around.png" alt="Icône 'Rechercher autour de moi'" />Rechercher autour de moi</a>
+        </p>
+      </aside>
+      <!-- End of the body left aside containing two button-links -->
+      <!-- Beginning of the section containing the map of the France -->
+      <section>
+        <img src="img/map.png" alt="Carte des régions de France" usemap="#map" />
+        <map name="map">
+          <area alt="Région Nord-Pas-de-Calais" title="Nord-Pas-de-Calais" href="http://www.leboncoin.fr/annonces/offres/nord_pas_de_calais/" shape="poly" coords="148, 6, 170, 0, 172, 9, 183, 14, 184, 19, 188, 19, 193, 25, 203, 28, 209, 37, 202, 37, 194, 34, 186, 38, 182, 36, 174, 36, 168, 34, 167, 30, 160, 31, 157, 27, 148, 27, 147, 23, 150, 21" />
+          <area alt="Région Picardie" title="Picardie" href="http://www.leboncoin.fr/annonces/offres/picardie/" shape="poly" coords="208, 38, 205, 48, 205, 57, 195, 61, 194, 67, 196, 72, 190, 77, 184, 69, 175, 72, 161, 65, 152, 65, 151, 54, 153, 45, 143, 33, 147, 31, 148, 27, 154, 28, 159, 31, 166, 30, 167, 35, 174, 36, 181, 36, 184, 40, 194, 35" />
+          <area alt="Région Champagne-Ardenne" title="Champagne-Ardenne" href="http://www.leboncoin.fr/annonces/offres/champagne_ardenne/" coords="240, 120, 228, 116, 221, 106, 205, 108, 193, 93, 191, 77, 195, 73, 195, 66, 197, 61, 203, 57, 206, 46, 220, 31, 232, 46, 224, 76, 242, 101, 251, 110" />
+          <area alt="Région Lorraine" title="Lorraine" href="http://www.leboncoin.fr/annonces/offres/lorraine/" shape="poly" coords="234, 50, 234, 55, 240, 52, 247, 55, 255, 54, 260, 55, 268, 64, 274, 67, 271, 71, 274, 73, 276, 77, 276, 84, 273, 87, 278, 94, 271, 108, 263, 105, 258, 107, 251, 103, 249, 107, 245, 104, 242, 98, 237, 94, 235, 89, 225, 79, 225, 75, 227, 70, 226, 64, 230, 58, 226, 55, 229, 51" />
+          <area alt="Région Alsace" title="Alsace" href="http://www.leboncoin.fr/annonces/offres/alsace/" shape="poly" coords="289, 67, 300, 70, 289, 95, 287, 107, 287, 114, 291, 118, 284, 121, 277, 119, 277, 113, 272, 109, 279, 95, 274, 88, 280, 81, 279, 76, 273, 70, 275, 68" />
+          <area alt="Région Franche-Comté" title="Franche-Comté" href="http://www.leboncoin.fr/annonces/offres/franche_comte/" shape="poly" coords="248, 109, 239, 120, 240, 129, 236, 141, 240, 146, 237, 158, 239, 165, 244, 163, 247, 165, 253, 164, 257, 157, 267, 140, 276, 129, 276, 123, 277, 118, 270, 106, 255, 105" />
+          <area alt="Région Bourgogne" title="Bourgogne" href="http://www.leboncoin.fr/annonces/offres/bourgogne/" shape="poly" coords="193, 93, 182, 93, 179, 100, 183, 108, 177, 117, 184, 151, 197, 154, 208, 168, 214, 172, 221, 165, 224, 170, 231, 156, 234, 159, 241, 147, 237, 141, 240, 129, 240, 121, 228, 116, 220, 108, 205, 108" />
+          <area alt="Région Rhônes-Alpes" title="Rhônes-Alpes" href="http://www.leboncoin.fr/annonces/offres/rhones_alpes/" shape="poly" coords="208, 167, 213, 171, 220, 165, 224, 169, 233, 159, 253, 167, 257, 170, 266, 161, 270, 161, 279, 175, 276, 182, 283, 197, 273, 206, 261, 206, 264, 214, 244, 228, 249, 237, 243, 239, 237, 235, 227, 236, 212, 236, 207, 233, 205, 218, 215, 206, 214, 198, 204, 199, 199, 185, 199, 170" />
+          <area alt="Région Auvergne" title="Auvergne" href="http://www.leboncoin.fr/annonces/offres/auvergne/" shape="poly" coords="185, 150, 198, 152, 208, 167, 201, 170, 198, 186, 203, 198, 211, 199, 213, 204, 206, 217, 199, 215, 190, 214, 182, 223, 175, 213, 162, 223, 161, 213, 164, 200, 171, 195, 169, 182, 173, 176, 171, 169, 165, 165, 171, 159, 175, 151" />
+          <area alt="Région Provence-Alpes-Côte d'Azur" title="Provence-Alpes-Côte d'Azur" href="https://www.leboncoin.fr/annonces/offres/provence_alpes_cote_d_azur/" shape="poly" coords="245, 226, 264, 214, 262, 204, 273, 206, 281, 216, 277, 223, 281, 233, 290, 239, 296, 236, 299, 238, 297, 249, 274, 268, 271, 272, 256, 277, 249, 273, 215, 264, 226, 247, 228, 235, 251, 237" />
+          <area alt="Région Languedoc-Roussillon" title=" Languedoc-Roussillon" href="http://www.leboncoin.fr/annonces/offres/languedoc_roussillon/" shape="poly" coords="182, 221, 189, 213, 203, 220, 209, 234, 222, 236, 228, 246, 214, 263, 207, 260, 196, 271, 192, 270, 183, 281, 188, 301, 182, 299, 173, 301, 152, 300, 150, 295, 161, 292, 149, 267, 171, 266, 176, 257, 190, 244" />
+          <area alt="Région Midi-Pyrénées" title="Midi-Pyrénées" href="http://www.leboncoin.fr/annonces/offres/midi_pyrenees/" shape="poly" coords="181, 219, 175, 213, 161, 223, 161, 213, 144, 209, 131, 227, 130, 239, 101, 246, 100, 260, 107, 267, 97, 283, 103, 290, 127, 286, 152, 294, 158, 293, 150, 266, 173, 265, 190, 245" />
+          <area alt="Région Aquitaine" title="Aquitaine" href="http://www.leboncoin.fr/annonces/offres/aquitaine/" shape="poly" coords="96, 282, 61, 265, 80, 221, 80, 190, 92, 210, 92, 200, 100, 208, 114, 202, 113, 196, 123, 187, 136, 191, 143, 208, 131, 226, 131, 238, 101, 246, 100, 260, 109, 266" />
+          <area alt="Région Limousin" title="Limousin" href="http://www.leboncoin.fr/annonces/offres/limousin/" shape="poly" coords="124, 185, 132, 179, 129, 169, 136, 164, 163, 162, 168, 170, 171, 183, 165, 188, 162, 201, 162, 210, 144, 209, 137, 192" />
+          <area alt="Région Poitou-Charentes" title="Poitou-Charentes" href="http://www.leboncoin.fr/annonces/offres/poitou_charentes/" shape="poly" coords="124, 187, 130, 179, 128, 170, 138, 163, 130, 146, 112, 135, 98, 137, 88, 140, 94, 164, 82, 164, 79, 186, 91, 198, 105, 208, 112, 202" />
+          <area alt="Région Pays-de-la-Loire" title="Pays-de-la-Loire" href="http://www.leboncoin.fr/annonces/offres/pays_de_la_loire/" shape="poly" coords="88, 87, 104, 85, 110, 91, 115, 91, 124, 96, 134, 100, 109, 120, 113, 133, 97, 138, 88, 138, 95, 165, 82, 165, 68, 157, 57, 144, 59, 132, 65, 130, 53, 128, 54, 121, 66, 117, 79, 112, 87, 103" />
+          <area alt="Région Centre" title="Centre" href="http://www.leboncoin.fr/annonces/offres/centre/" shape="poly" coords="112, 134, 110, 120, 133, 99, 128, 95, 131, 80, 144, 76, 158, 98, 180, 101, 183, 108, 178, 118, 185, 150, 175, 151, 165, 166, 138, 165, 130, 146" />
+          <area alt="Région Île-de-France" title="Île-de-France" href="http://www.leboncoin.fr/annonces/offres/ile_de_france/" shape="poly" coords="150, 65, 161, 65, 176, 72, 185, 68, 191, 78, 191, 91, 181, 93, 179, 99, 172, 102, 168, 98, 158, 96, 152, 90, 146, 75" />
+          <area alt="Région Haute-Normandie" title="Haute-Normandie" href="http://www.leboncoin.fr/annonces/offres/haute_normandie/" shape="poly" coords="113, 55, 141, 34, 155, 45, 153, 53, 151, 63, 144, 76, 132, 79" />
+          <area alt="Région Basse-Normandie" title="Basse-Normandie" href="http://www.leboncoin.fr/annonces/offres/basse_normandie/" shape="poly" coords="67, 44, 77, 69, 75, 76, 77, 85, 87, 87, 104, 84, 126, 96, 130, 80, 115, 58, 108, 64, 85, 61, 83, 47" />
+          <area alt="Région Bretagne" title="Bretagne" href="http://www.leboncoin.fr/annonces/offres/bretagne/" shape="poly" coords="53, 119, 42, 114, 36, 120, 33, 111, 19, 103, 6, 106, 2, 80, 20, 74, 43, 77, 48, 83, 72, 85, 77, 89, 87, 86, 86, 99, 79, 112, 67, 117" />
+          <area alt="Région Corse" title="Corse" href="http://www.leboncoin.fr/annonces/offres/corse/" shape="poly" coords="303, 261, 282, 280, 289, 312, 301, 319, 308, 286" />
+          <area alt="Région Guadeloupe" title="Guadeloupe" href="http://www.leboncoin.fr/annonces/offres/guadeloupe/" shape="poly" coords="65, 317, 46, 328, 55, 358, 84, 359, 94, 328" />
+          <area alt="Région Martinique" title="Martinique" href="http://www.leboncoin.fr/annonces/offres/martinique/" shape="poly" coords="110, 319, 109, 326, 121, 355, 146, 355, 136, 327" />
+          <area alt="Région Guyane" title="Guyane" href="http://www.leboncoin.fr/annonces/offres/guyane/" shape="poly" coords="171, 323, 164, 333, 168, 357, 184, 359, 195, 339" />
+          <area alt="Région Réunion" title="Réunion" href="http://www.leboncoin.fr/annonces/offres/reunion/" shape="poly" coords="223, 328, 212, 340, 227, 356, 248, 357, 254, 347, 241, 329" />
+        </map>
+      </section>
+      <!-- End of the section containing the map of the France  -->
+      <!-- Beginning of the body right aside containing the list of the France departments -->
+      <aside class="body-right-aside">
+        <!-- Beginning of the departments navigation list -->
+        <nav class="departments-navlist">
+          <ul>
+            <li><a href="https://www.leboncoin.fr/annonces/offres/alsace/">Alsace</a></li>
+            <li><a href="https://www.leboncoin.fr/annonces/offres/aquitaine/">Aquitaine</a></li>
+            <li><a href="https://www.leboncoin.fr/annonces/offres/auvergne/">Auvergne</a></li>
+            <li><a href="https://www.leboncoin.fr/annonces/offres/basse_normandie/">Basse-Normandie</a></li>
+            <li><a href="https://www.leboncoin.fr/annonces/offres/bourgogne/">Bourgogne</a></li>
+            <li><a href="https://www.leboncoin.fr/annonces/offres/bretagne/">Bretagne</a></li>
+            <li><a href="https://www.leboncoin.fr/annonces/offres/centre/">Centre</a></li>
+            <li><a href="https://www.leboncoin.fr/annonces/offres/champagne_ardenne/">Champagne-Ardenne</a></li>
+            <li><a href="https://www.leboncoin.fr/annonces/offres/corse/">Corse</a></li>
+            <li><a href="https://www.leboncoin.fr/annonces/offres/franche_comte/">Franche-Comté</a></li>
+            <li><a href="https://www.leboncoin.fr/annonces/offres/haute_normandie/">Haute-Normandie</a></li>
+            <li><a href="https://www.leboncoin.fr/annonces/offres/ile_de_france/">Ile-de-France</a></li>
+            <li><a href="https://www.leboncoin.fr/annonces/offres/languedoc_roussillon/">Languedoc-Roussillon</a></li>
+            <li><a href="https://www.leboncoin.fr/annonces/offres/limousin/">Limousin</a></li>
+            <li><a href="https://www.leboncoin.fr/annonces/offres/lorraine/">Lorraine</a></li>
+            <li><a href="https://www.leboncoin.fr/annonces/offres/midi_pyrenees/">Midi-Pyrénées</a></li>
+            <li><a href="https://www.leboncoin.fr/annonces/offres/nord_pas_de_calais/">Nord-Pas-de-Calais</a></li>
+            <li><a href="https://www.leboncoin.fr/annonces/offres/pays_de_la_loire/">Pays de la Loire</a></li>
+            <li><a href="https://www.leboncoin.fr/annonces/offres/picardie/">Picardie</a></li>
+            <li><a href="https://www.leboncoin.fr/annonces/offres/poitou_charentes/">Poitou-Charentes</a></li>
+            <li><a href="https://www.leboncoin.fr/annonces/offres/provence_alpes_cote_d_azur/">Provences-Alpes-Côte d'Azur</a></li>
+            <li><a href="https://www.leboncoin.fr/annonces/offres/rhone_alpes/">Rhône-Alpes</a></li>
+            <li><a href="https://www.leboncoin.fr/annonces/offres/guadeloupe/">Guadeloupe</a></li>
+            <li><a href="https://www.leboncoin.fr/annonces/offres/martinique/">Martinique</a></li>
+            <li><a href="https://www.leboncoin.fr/annonces/offres/guyane/">Guyane</a></li>
+            <li><a href="https://www.leboncoin.fr/annonces/offres/reunion/">Réunion</a></li>
+            </ul>
+          </nav>
+          <!-- End of the departments navigation list -->
+      </aside>
+      <!-- End of the body right aside containing the list of the France departments -->
+    </div>
+    <!-- End of the wrapper div -->
     <!-- Clearfix the previous floating elements -->
     <div class="clean-float"></div>
   </body>
