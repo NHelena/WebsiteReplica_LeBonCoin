@@ -6,10 +6,20 @@
    Main page
    ========================================================================== */
 
+@font-face {
+  font-family: "Open Sans Semibold";
+  src: url("../font/OpenSans-Semibold.eot?") format("eot"),
+       url("../font/OpenSans-Semibold.woff") format("woff"),
+       url("../font/OpenSans-Semibold.ttf") format("truetype"),
+       url("../font/OpenSans-Semibold.svg#OpenSans-Semibold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* Global selector */
 * {
-  font: 14px "Open Sans", sans-serif;
-  font-weight: bold;
+  font: 14px "Open Sans Semibold";
+  letter-spacing: -0.5px;
 }
 
 
@@ -33,34 +43,38 @@ header {
   background-color: #F56B2A;
   width: 100%;
   position: static;
-  padding: 4px 0 4px 0;
-  left: 0;
+  padding: 1px 0 1px 0;
 }
 
+/* Fix the header to the top and to the right & center the text */
 .header-navlist {
   top: 0;
   right: 0;
   list-style: none;
+  text-align: center;
+}
+
+/* Vertically center the logo in the header */
+.header-navlist img {
+  vertical-align: middle;
 }
 
 .header-navlist li {
-  display: inline;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .header-navlist a {
   color: #FFFFFF;
   text-decoration: none;
   text-transform: uppercase;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 0.8em;
+  padding-right: 0.8em;
 }
 
+/* Force the header links to be underlined when the mouse hovers them */
 .header-navlist a:hover {
   text-decoration: underline;
-}
-
-.log-in-button {
-  
 }
 
 
@@ -68,6 +82,7 @@ header {
    List of departments (body aside)
    ========================================================================== */
 
+/* Fix the list of the departments on the right */
 .departments-list {
   float: right;
 }
@@ -77,16 +92,19 @@ header {
   clear: both;
 }
 
+/* Remove the departments list bullets & aligns the text to the right */
 .departments-navlist ul {
   list-style: none;
   text-align: right;
 }
 
+/* Set the font color of the departments list links & prevent them from being underlined */
 .departments-navlist a {
   color: #4271A0;
   text-decoration: none;
 }
 
+/* Set the font color of the departments list links when the mouse hovers them */
 .departments-navlist a:hover {
   color: #F56B2A;
 }
